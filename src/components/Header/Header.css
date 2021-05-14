@@ -1,5 +1,5 @@
 .navbar{
-    height: 80px;
+    height: 65px;
     width: 100%;
     background:black;
     color:#3E3E3E;
@@ -8,6 +8,8 @@
     align-items: center;
     padding: 0 2rem;
     font-size: 1.2rem;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+
 }
 
 .nav-logo{
