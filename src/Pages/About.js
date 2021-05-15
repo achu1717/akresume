@@ -33,7 +33,9 @@ export default function About() {
         <div class="childcdv">
         <center><Stars style={{ fontSize: 190 }}/></center>
           <p className="headingtech">SKILLS</p>
-        <p></p>
+        <p>Frontend:ReactJS, React Native</p>
+        <p>backend:NodeJs</p>
+        <p>Database:MongoDB</p>
         </div>
         <div class="childcdv">
         <center><TwoWheeler style={{ fontSize: 190 }}/></center>
