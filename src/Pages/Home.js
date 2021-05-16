@@ -7,9 +7,11 @@ import expjs from "../images/expjs.png";
 import mongdb from "../images/mngdb.png";
 import Particles from "react-tsparticles";
 import SocialMedia from '../components/SocialMedia'
+import Header from '../components/Header/Header'
 export default function Home() {
   return (
     <div className="maindiv">
+      <Header/>
        <br />
        <br />
         <div className="aboutbx">

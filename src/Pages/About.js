@@ -1,9 +1,11 @@
 import React from "react";
 import {Memory, Home,School,Receipt,Stars,TwoWheeler} from '@material-ui/icons';
 import SocialMedia from '../components/SocialMedia'
+import Header from '../components/Header/Header'
 export default function About() {
   return (
     <div class="maindiv">
+      <Header/>
       <h1 className="headings">ABOUT</h1>
       <div class="parentcdv">
         <div class="childcdv">

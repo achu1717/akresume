@@ -1,6 +1,8 @@
 .maindiv {
   background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+  position: relative;
 }
+
 .headings {
   text-align: center;
   padding-bottom: 20px;
