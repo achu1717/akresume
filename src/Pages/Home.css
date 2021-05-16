@@ -11,7 +11,7 @@
 }
 .headingtech {
   text-align: center;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   font-size: clamp(1.2rem, calc(0rem + 2.0vw), 4rem);
   text-transform: uppercase;
   text-shadow: 0 3px 3px rgb(0 0 0 / 50%);
@@ -100,7 +100,7 @@
   flex: 1 1 200px;
   margin: 20px;
   border-radius: 12px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 20px 10px 20px;
 }
 
 @media (max-width: 768px) {
@@ -118,4 +118,9 @@
 }
 .socicnl:visited{
     color: black;
+}
+
+.abtcont{
+  text-align: justify;
+  text-justify: inter-word;
 }
