@@ -1,14 +1,15 @@
 import React from "react";
 import {Memory, Home,School,Receipt,Stars,TwoWheeler} from '@material-ui/icons';
-import SocialMedia from '../components/SocialMedia'
-import Header from '../components/Header/Header'
+
+import Footer from '../components/Footer/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css';
 export default function About() {
   return (
     <div class="maindiv">
-      <Header/>
+      <br/><br/>
       <h1 className="headings">ABOUT</h1>
       <div class="parentcdv">
-        <div class="childcdv">
+        <div class="childcdv ">
         <center><Home style={{ fontSize: 190 }}/></center>
         <br/>
           <p className="headingtech">HOMETOWN</p>
@@ -84,8 +85,9 @@ export default function About() {
         Reach out achuakshay92@gmail.com to connect!
       </p>
       <div>
-      <SocialMedia/>
+    
       </div>
+      <Footer/>
     </div>
   );
 }

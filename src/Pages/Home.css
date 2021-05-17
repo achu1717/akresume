@@ -2,7 +2,6 @@
   background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
   position: relative;
 }
-
 .headings {
   text-align: center;
   padding-bottom: 20px;
@@ -10,10 +9,11 @@
   text-transform: uppercase;
   text-shadow: 0 3px 3px rgb(0 0 0 / 50%);
   padding-top: 30px;
+  color: white;
 }
 .headingtech {
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   font-size: clamp(1.2rem, calc(0rem + 2.0vw), 4rem);
   text-transform: uppercase;
   text-shadow: 0 3px 3px rgb(0 0 0 / 50%);
@@ -22,11 +22,11 @@
   margin-left: 10%;
   margin-right: 10%;
   justify-content: center;
-  padding: 25px 25px 25px 25px;
+  padding: 20px 25px 25px 25px;
   /* background-color: white; */
   border-radius: 12px;
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
 }
 .contentsss {
   margin-left: 10%;
@@ -36,12 +36,13 @@
   /* background-color: white; */
   border-radius: 12px;
   text-align: center;
+
 }
 .dp {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 2px solid white;
 }
 .head2 {
   text-align: center;
@@ -55,16 +56,18 @@
 .head3 {
   text-align: center;
   padding-top: 10px;
+  color: #fff;
 }
 .tech {
   margin-top: 135px;
-  background:white;
+  background:linear-gradient(130deg, #f79b5a, #ac6e7e 41.07%, #609194 76.05%);
   margin-left: 30px;
   margin-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 12px;
-  border: 3px solid thistle;
+  
+  
   
 }
 .aboutbx {
@@ -100,14 +103,16 @@
 }
 .childcdv {
   height: auto;
-  background: #fff;
+  background: rgb(204, 204, 204);
   /* box-shadow: 0 0 5px #bac3c3; */
   flex: 1 1 200px;
   margin: 20px;
   border-radius: 12px;
   padding: 10px 20px 10px 20px;
 }
-
+.childcdv:hover{
+  background: rgb(172, 172, 172);
+}
 @media (max-width: 768px) {
   .maindiv {
     height: auto;
@@ -121,13 +126,61 @@
 .socicn{
     padding-bottom: 30px;
 }
-.socicnl:visited{
-    color: black;
+.socicnl{
+  color: grey;
 }
-
+.socicnl:visited{
+    color:grey;;
+}
+.socicnl:hover{
+  color:rgb(120, 202, 42);
+}
 .abtcont{
   text-align: justify;
   text-justify: inter-word;
   font-family: 'Open Sans', sans-serif;
 }
+.logoname{
+  height:30px;
+}
+.footr{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#292b2c;
+  color: white;
+  text-align: center;
+  margin-bottom: 1px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+#cpy{
+  color: grey;
+}
 
+.stackbx{
+  padding-top: 20px;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-bottom: 50px;
+}
+.stacktxt{
+  color:white;
+  font-size: 25px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.stackheads{
+  
+  padding-bottom: 0px;
+  font-size: clamp(1.2rem, calc(0rem + 2.5vw), 4rem);
+  text-transform: uppercase;
+  text-shadow: 0 3px 3px rgb(0 0 0 / 50%);
+  padding-top: 30px;
+  color: white;
+}
+.stacktbs{
+  color:rgb(120, 202, 42);
+  font-weight: bold;
+
+}

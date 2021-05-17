@@ -8,10 +8,11 @@ import mongdb from "../images/mngdb.png";
 import Particles from "react-tsparticles";
 import SocialMedia from '../components/SocialMedia'
 import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
 export default function Home() {
   return (
     <div className="maindiv">
-      <Header/>
+      
        <br />
        <br />
         <div className="aboutbx">
@@ -24,7 +25,7 @@ export default function Home() {
         <h1 className="head2">AKSHAY SURESH</h1>
         <h3 className="head3">Full stack Web Developer</h3>
         <p className="contentss">
-          I am a Master of Computer Application graduate. Currently working as a
+          I m a Master of Computer Application graduate. Currently working as a
           freelance frontend developer and is always interested in a challenge.
         </p>
       </div>
@@ -111,7 +112,7 @@ export default function Home() {
       <div id="abtboxin">
         <h1 className="headingtech">Technologies</h1>
         <p className="contentss">
-          I use these Technologies for the Web developement
+          I use these Technologies for the Web developement.
         </p>
         <center>
           <img className="tecicon1" src={rct} />
@@ -128,7 +129,8 @@ export default function Home() {
         Reach out achuakshay92@gmail.com to connect!
       </p>
       <div>
-      <SocialMedia/>
+      
+      <Footer/>
       </div>
     </div>
   );
